@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<channel name="xfce4-panel" version="1.0">
+  <property name="configver" type="int" value="2"/>
+  <property name="panels" type="array">
+    <value type="int" value="1"/>
+    <property name="dark-mode" type="bool" value="false"/>
+    <property name="panel-1" type="empty">
+      <property name="background-style" type="uint" value="0"/>
+      <property name="disable-struts" type="bool" value="false"/>
+      <property name="enter-opacity" type="uint" value="80"/>
+      <property name="leave-opacity" type="uint" value="80"/>
+      <property name="length" type="uint" value="100"/>
+      <property name="length-adjust" type="bool" value="true"/>
+      <property name="mode" type="uint" value="0"/>
+      <property name="nrows" type="uint" value="1"/>
+      <property name="plugin-ids" type="array">
+        <value type="int" value="1"/>
+        <value type="int" value="2"/>
+        <value type="int" value="7"/>
+        <value type="int" value="4"/>
+        <value type="int" value="3"/>
+        <value type="int" value="6"/>
+        <value type="int" value="5"/>
+        <value type="int" value="9"/>
+      </property>
+      <property name="position" type="string" value="p=8;x=96;y=1055"/>
+      <property name="position-locked" type="bool" value="true"/>
+      <property name="size" type="uint" value="42"/>
+    </property>
+  </property>
+  <property name="plugins" type="empty">
+    <property name="plugin-1" type="string" value="whiskermenu"/>
+    <property name="plugin-2" type="string" value="docklike"/>
+    <property name="plugin-3" type="string" value="pulseaudio">
+      <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
+      <property name="mpris-players" type="string" value="audacious;cantata;firefox.instance112504;firefox.instance114432;firefox.instance12121;firefox.instance12768;firefox.instance15644;firefox.instance1696;firefox.instance17596;firefox.instance17887;firefox.instance1841;firefox.instance1926;firefox.instance21633;firefox.instance21715;firefox.instance2493;firefox.instance2924;firefox.instance31308;firefox.instance32742;firefox.instance33972;firefox.instance40037;firefox.instance42416;firefox.instance6123;firefox.instance6278;firefox.instance80592;firefox.instance9405;firefox.instance98492;spotify"/>
+    </property>
+    <property name="plugin-4" type="string" value="systray">
+      <property name="hide-new-items" type="bool" value="false"/>
+      <property name="icon-size" type="int" value="16"/>
+      <property name="known-items" type="array">
+        <value type="string" value="blueman"/>
+        <value type="string" value="TelegramDesktop"/>
+        <value type="string" value="ulauncher"/>
+      </property>
+      <property name="known-legacy-items" type="array">
+        <value type="string" value="bluetooth active
+&lt;b&gt;2 active connections&lt;/b&gt;"/>
+        <value type="string" value="wi-fi network connection “bthub6-fcf5” active: bthub6-fcf5 (66%)"/>
+        <value type="string" value="wi-fi network connection “bthub6-fcf5” active: bthub6-fcf5 (68%)"/>
+        <value type="string" value="thunar"/>
+        <value type="string" value="ulauncher"/>
+        <value type="string" value="xfce4-power-manager"/>
+        <value type="string" value="networkmanager applet"/>
+        <value type="string" value="pamac-tray"/>
+      </property>
+      <property name="menu-is-primary" type="bool" value="true"/>
+      <property name="single-row" type="bool" value="true"/>
+      <property name="square-icons" type="bool" value="true"/>
+      <property name="symbolic-icons" type="bool" value="true"/>
+    </property>
+    <property name="plugin-5" type="string" value="clock">
+      <property name="digital-format" type="string" value="%I:%M %p"/>
+      <property name="mode" type="uint" value="2"/>
+      <property name="show-seconds" type="bool" value="false"/>
+    </property>
+    <property name="plugin-6" type="string" value="power-manager-plugin"/>
+    <property name="plugin-7" type="string" value="separator">
+      <property name="expand" type="bool" value="true"/>
+      <property name="style" type="uint" value="0"/>
+    </property>
+    <property name="plugin-9" type="string" value="notification-plugin"/>
+  </property>
+</channel>
